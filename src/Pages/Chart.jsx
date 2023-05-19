@@ -55,8 +55,8 @@ const data = {
 
 export default function Chart() {
 	return (
-		<Box width={'50%'}>
-		<Heading marginTop={'24px'} marginLeft={'80px'} color={"#004F95"} textAlign={'start'} fontFamily={'Poppins'} >Total Incidents Recorded</Heading>
+		<Box width={'70%'}>
+		<Heading marginTop={'24px'} color={"#004F95"} textAlign={'start'} marginLeft={'80px'} fontFamily={'Poppins'} >Total Incidents Recorded</Heading>
 				<Box display="flex" justifyContent={'space-between'} mt={"2%"} width={"100%"} >
 					<Box
 						display="flex"
@@ -89,7 +89,7 @@ export default function Chart() {
 					</Box>
 				</Box>
 				<Box marginLeft={'229px'}>
-					<div style={{ width: 1000, textAlign: "center" }}  border={"1px solid red"}>
+					<div style={{ width: 600, textAlign: "center" }}  border={"1px solid red"}>
 					<Bar options={option} data={data} height={"300px"}  />
 					</div>
 				</Box>

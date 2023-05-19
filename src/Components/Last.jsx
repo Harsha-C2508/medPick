@@ -8,7 +8,7 @@ const Last = () => {
     
     return (
         
-           <Flex position={'absolute'} zIndex={'-1'} gap={'20px'} marginTop={'20px'} marginLeft={'10px'} marginBottom={'50px'} className='last'>
+           <Flex position={'absolute'} zIndex={'-1'} gap={'20px'} marginTop={'20px'} marginLeft={'10px'} marginBottom={'90px'} className='last'>
                 <Calibrated />
                 <Manula />
                 <Warrenty/>
