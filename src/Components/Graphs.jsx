@@ -6,10 +6,10 @@ import CircleArrowGraph from '../Pages/CircleArrowGraph';
 import '../App.css'
 const Graphs = () => {
   return (
-      <Flex height={'380px'} marginTop={'80px'} justifyContent={'space-evenly'}>
+      <Flex height={'350px'} marginTop={'80px'} gap={'20px'} zIndex={'-1'}>
           <Box bgColor="#F8FBFF"
                boxShadow={'0px 4px 8px -2px rgba(0, 79, 149, 0.25)'}
-              borderRadius={"30px"} height={"300px"} width={"300px"}>
+              borderRadius={"30px"} height={"300px"} width={"290px"}>
               <Box width={'100%'} marginTop={'10px'}><Text fontSize={'32px'} fontFamily={'Poppins'} color={'#004F95'}>Expenses</Text></Box>
               <DonutChart/>
           </Box>
@@ -40,7 +40,7 @@ const Graphs = () => {
               borderRadius={"30px"} height={"300px"} width={"300px"}>
               <Box width={'100%'} marginTop={'10px'}><Text fontSize={'32px'} fontFamily={'Poppins'} color={'#004F95'}>Total Assets</Text></Box>
               <CircleArrowGraph />
-              <Box marginLeft={'110px'} fontFamily={'Poppins'} color={'#004F95'} fontSize={'54px'} fontWeight={'700'} marginTop={'-48px'} position={'absolute'}>
+              <Box marginLeft={'70px'} fontFamily={'Poppins'} color={'#004F95'} fontSize={'54px'} fontWeight={'700'} marginTop={'-48px'} position={'absolute'}>
                     46
                   </Box>
           </Box>
@@ -67,7 +67,6 @@ Management</Text></Box>
                     </span>
                 </div>
                   </div>
-                  {/* Not Required */}
              </Box>
           </Box>
           

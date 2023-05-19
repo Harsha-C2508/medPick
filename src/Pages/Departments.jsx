@@ -3,7 +3,7 @@ import { Box,Flex,Text } from '@chakra-ui/react'
 
 const Departments = () => {
   return (
-     <Box className="container">
+     <Box className="container" zIndex={'-1'}>
           <h1 className="title-text">Departments</h1>
           
           <Flex gap={'5px'} marginTop={"10px"}>

@@ -1,3 +1,4 @@
+import { Box } from '@chakra-ui/react';
 import React from 'react';
 import { Chart } from "react-google-charts";
 
@@ -11,18 +12,17 @@ export const data = [
 
 export const options = {
   pieHole: 0.4,
-//   is3D: false,
 };
 
 const DonutChart = () => {
     return (
-        <div>
+        <Box zIndex={'-1'}>
         <Chart
-            chartType="PieChart"
+          chartType="PieChart"
             data={data}
           options={options}
             />
-            </div>
+            </Box>
   );
 };
 

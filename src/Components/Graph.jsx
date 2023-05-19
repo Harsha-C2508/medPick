@@ -5,7 +5,7 @@ import BarChart from '../Pages/BarChart'
 
 const Graph = () => {
   return (
-      <Flex gap={'20px'}>
+      <Flex gap={'20px'}  zIndex={'-1'}>
           <Departments />
           <BarChart/>
     </Flex>

@@ -18,7 +18,7 @@ const BarChart = () => {
 
 
     return (
-        <Box w={'900px'} textAlign={'start'} boxShadow={" 0px 4px 8px rgba(0, 79, 149, 0.25)"}
+        <Box w={'670px'} textAlign={'start'} boxShadow={" 0px 4px 8px rgba(0, 79, 149, 0.25)"}
 borderRadius= {"30px"} h={"550px"}>
             <Heading font-family={'Poppins'}
             fontStyle={"normal"}
@@ -31,7 +31,7 @@ borderRadius= {"30px"} h={"550px"}>
                 color={'#004F95'}
                 marginBottom={'30px'}
                         >Total Downtime</Heading>
-            <LineChart width={893} height={299} data={data}  >
+            <LineChart width={553} height={299} data={data}  >
       <XAxis dataKey="name" />
       <YAxis />
       <CartesianGrid strokeDasharray="3 3" />

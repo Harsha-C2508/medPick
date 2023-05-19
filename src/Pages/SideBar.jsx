@@ -14,10 +14,6 @@ import {
 } from '@chakra-ui/react';
 import {
   FiHome,
-  FiTrendingUp,
-  FiCompass,
-  FiStar,
-  FiSettings,
   FiMenu,
 } from 'react-icons/fi';
 import { HiOutlineUserGroup } from 'react-icons/hi'
@@ -42,7 +38,7 @@ export default function SideBar({ children }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box minH="100vh"
-      width="155px"
+      width="120px"
       bg={'#F0F8FF'}>
       <SidebarContent
         onClose={() => onClose}

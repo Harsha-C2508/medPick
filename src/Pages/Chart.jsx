@@ -55,7 +55,7 @@ const data = {
 
 export default function Chart() {
 	return (
-		<Box>
+		<Box width={'50%'}>
 		<Heading marginTop={'24px'} marginLeft={'80px'} color={"#004F95"} textAlign={'start'} fontFamily={'Poppins'} >Total Incidents Recorded</Heading>
 				<Box display="flex" justifyContent={'space-between'} mt={"2%"} width={"100%"} >
 					<Box

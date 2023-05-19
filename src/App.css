@@ -3,6 +3,7 @@
 .App {
   text-align: center;
   background: rgba(255, 255, 255, 0.2);
+  width: 100ww;
 }
 .container {
   position: relative;
@@ -150,4 +151,10 @@ font-style: normal;
   width: 10px;
   z-index: -1;
   transform: translateX(-50%) rotate(45deg);
+}
+
+@media only screen and (max-width: 900px){
+  .last{
+    flex-direction: column;
+  }
 }

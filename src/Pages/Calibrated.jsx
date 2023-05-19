@@ -3,7 +3,7 @@ import { Box, Heading } from '@chakra-ui/react'
 import '../App.css'
 const Calibrated = () => {
   return (
-      <Box width={'620px'}  h={'380px'} boxShadow={"0px 4px 8px rgba(0, 79, 149, 0.25)"}
+      <Box width={'550px'}  h={'380px'} boxShadow={"0px 4px 8px rgba(0, 79, 149, 0.25)"}
           borderRadius={" 30px"}>
           <Heading color={"#004F95"} fontSize={'32px'} fontFamily={'Poppins'} marginTop={'40px'}>Calibrated</Heading>
           <Box textAlign={'start'} marginLeft={'50px'} maringTop={"9px"}>

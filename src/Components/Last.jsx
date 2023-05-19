@@ -3,13 +3,17 @@ import Calibrated from '../Pages/Calibrated'
 import { Flex } from '@chakra-ui/react'
 import Manula from '../Pages/Manula'
 import Warrenty from '../Pages/Warrenty'
+import '../App.css'
 const Last = () => {
-  return (
-      <Flex gap={'20px'} marginTop={'20px'} marginLeft={'10px'} marginBottom={'50px'}>
-          <Calibrated />
-          <Manula />
-          <Warrenty/>
-      </Flex>
+    
+    return (
+        
+           <Flex position={'absolute'} zIndex={'-1'} gap={'20px'} marginTop={'20px'} marginLeft={'10px'} marginBottom={'50px'} className='last'>
+                <Calibrated />
+                <Manula />
+                <Warrenty/>
+            </Flex>
+      
   )
 }
 

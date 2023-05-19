@@ -12,10 +12,10 @@ const Vajra = () => {
 	return (
 		<Box>
 			<Flex>
-				<Sidebar />
-				<Box>
+				<Box width={'10%'}><Sidebar /></Box>
+				<Box width={'90%'}>
 					<Navbar />
-					<Chart />
+					{/* <Chart /> */}
 					<Graphs />
 					<Graph />
 					<Last/>

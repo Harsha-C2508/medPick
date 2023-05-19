@@ -13,10 +13,10 @@ const Navbar = () => {
 		  		marginTop={"48px"}
 				justifyContent="space-between"
 				padding={"2%"}
-				gap={'2px'}
+		  gap={'2px'}
 				boxShadow = {"0px 2px 8px -2px rgba(0, 79, 149, 0.25)"}
 			>
-				<InputGroup width={"850px"}>
+				<InputGroup width={"520px"} marginLeft={'10px'}>
 					<InputLeftElement pointerEvents="none" >
 						<SearchIcon color={"#004F95"} />
 					</InputLeftElement>
@@ -24,7 +24,7 @@ const Navbar = () => {
 						type="tel"
 						borderRadius={'50px'}
 						border={'1px solid black'}
-						width={"820px"}
+						width={"520px"}
 				 	 height={"36px"}
 				  boxSizing={'border-box'}
 				  mr={'64px'}
